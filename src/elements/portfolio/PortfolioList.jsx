@@ -10,7 +10,7 @@ const PortfolioListContent = [
   {
     image: "image-2",
     category: "In Development",
-    title: "Nonobar",
+    title: "Nanobar",
     link: "https://nanobar.io"
   },
   {
