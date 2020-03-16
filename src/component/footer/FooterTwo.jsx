@@ -2,9 +2,12 @@ import React from "react";
 import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const SocialShare = [
-  { Social: <FaGithub />, link: "https://www.github.com/" },
-  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" }
+  { Social: <FaGithub />, link: "https://github.com/RepubIique" },
+  {
+    Social: <FaLinkedinIn />,
+    link: "https://www.linkedin.com/in/kendrickbong/"
+  },
+  { Social: <FaInstagram />, link: "https://www.instagram.com/itskennybong" }
 ];
 
 const FooterTwo = () => {
@@ -38,7 +41,7 @@ const FooterTwo = () => {
           <div className="col-lg-4 col-md-12 col-sm-12 col-12">
             <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
               <div className="text">
-                <p>Wow I'm surprised you read this </p>
+                <p>Wow I'm surprised you read this. </p>
               </div>
             </div>
           </div>

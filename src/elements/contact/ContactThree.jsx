@@ -19,16 +19,16 @@ class ContactThree extends Component {
               <div className="section-title text-left mb--50">
                 <h2 className="title">{this.props.contactTitle}</h2>
                 <p className="description">
-                  I am available for freelance work. Connect with me via phone:{" "}
-                  <a href="tel:+61452228026">045 222 8026</a> or email:
+                  I am available for all types of work. Connect with me via
+                  phone: <a href="tel:+61452228026">045 222 8026</a> or email:
                   <a href="mailto:kendrickbong1996@gmail.com">
                     {" "}
                     kendrickbong1996@gmail.com
                   </a>{" "}
                 </p>
               </div>
-              {/* <div className="form-wrapper"> */}
-              {/* <form>
+              <div className="form-wrapper">
+                <form>
                   <label htmlFor="item01">
                     <input
                       type="text"
@@ -88,8 +88,8 @@ class ContactThree extends Component {
                   >
                     Submit
                   </button>
-                </form> */}
-              {/* </div> */}
+                </form>
+              </div>
             </div>
             <div className="col-lg-6 order-1 order-lg-2">
               <div className="thumbnail mb_md--30 mb_sm--30">
