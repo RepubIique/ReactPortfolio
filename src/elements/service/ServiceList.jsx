@@ -7,38 +7,36 @@ const ServiceList = [
   {
     icon: <FaJs />,
     title: "Javascript",
-    description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth."
-  },
-  {
-    icon: <FaNodeJs />,
-    title: "Node.js",
-    description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth."
-  },
-  {
-    icon: <FaReact />,
-    title: "React",
-    description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth."
+    description: `"The most misunderstood language of all time." Main language that I code in. I also know TypeScript and the forgotten JQuery.`
   },
   {
     icon: <IoLogoIonic />,
     title: "Ionic Framework v5",
     description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth."
+      "As an Apple fan boy this is my favourite framework to build on. I've spent more time in components section than coding itself."
   },
   {
-    icon: <DiMysql />,
-    title: "MySQL",
+    icon: <FaNodeJs />,
+    title: "Node.js",
     description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth."
+      "My first introduction to asynchronous programming and the world of NPM. I showed it to my goldfish it is now a Megalodon shark."
   },
   {
     icon: <FaCode />,
     title: "MQTT",
     description:
-      "I throw myself down among the tall grass by the stream as I lie close to the earth."
+      "Internet of Things. I built a vending machine. Learning how arduino works as I go."
+  },
+  {
+    icon: <FaReact />,
+    title: "React",
+    description:
+      "May God bless the souls that wrote the documentation and thanks for teaching me how to code cleanly."
+  },
+  {
+    icon: <DiMysql />,
+    title: "MySQL",
+    description: "What? Huh? Drop. Opps. I am switching to Mongoose."
   }
 ];
 

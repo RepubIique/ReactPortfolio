@@ -5,7 +5,7 @@ class TabsTwo extends Component{
     render(){
         let 
         tab1 = "Main skills",
-        tab2 = "Awards",
+        tab2 = "Characteristic",
         tab3 = "Experience",
         tab4 = "Education & Certification";
         const { tabStyle } = this.props
@@ -28,16 +28,16 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a href="/service">User experience design <span> - UI/UX</span></a>
-                                                    Delight the user and make it work.
+                                                    <a href="/service">Progressive Web App Developer <span> - FE/BE</span></a>
+                                                    Javascript is my go to. Currently also learning Python.
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Web and user interface design<span> - Development</span></a>
-                                                    Websites, web experiences, ...
+                                                    <a href="/service">Front End Design<span> - Development</span></a>
+                                                    I love to use frameworks. All types.
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Interaction design <span> - Animation</span></a>
-                                                    I like to move it move it.
+                                                    <a href="/service">Databases<span> - Development</span></a>
+                                                    MySQL, MongoDB and Stackoverflowing my way out of a problem
                                                 </li>
                                             </ul>
                                         </div>
@@ -47,13 +47,13 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Awwwards.com <span>- Winner</span></a> 2019 - 2020
+                                                   <a href="/service">Cheekiness (Only when I know you) <span>- Winner</span></a> 1996 - Current
                                                </li>
                                                <li>
-                                                   <a href="/service">CSS Design Awards <span>- Winner</span></a> 2017 - 2018
+                                                   <a href="/service">Optimistic (Glass Half Full) <span>- Runner up</span></a> 2010 - Current
                                                </li>
                                                <li>
-                                                   <a href="/service">Design nominees <span>- site of the day</span></a> 2013- 2014
+                                                   <a href="/service">Future Oriented <span>- Wannabe</span></a> Current - Creation of Dyson Sphere
                                                </li>
                                            </ul>
                                        </div>
@@ -65,13 +65,13 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Sr. Front-end Engineer<span> - Google</span></a> 2018 - Current
+                                                   <a href="/service">Contracted Jr Full Stack Developer<span> - Common Extract</span></a> 2020 - Current
                                                </li>
                                                <li>
-                                                   <a href="/service">Front-end Engineer<span> - Microsoft</span></a> 2017 - 2018
+                                                   <a href="/service">Food Technologist / NPD<span> - Milne Agrigroup</span></a> 2019 - Current
                                                </li>
                                                <li>
-                                                   <a href="/service">Software Engineer<span> - Alibaba </span></a> 2013- 2014
+                                                   <a href="/service">Food Technologist / Analyst<span> - The Lupin Co </span></a> 2018- 2019
                                                </li>
                                            </ul>
                                        </div>
@@ -81,13 +81,13 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">BSc In CSE<span> - ABC University, Los Angeles, CA</span></a> 2010
+                                                   <a href="/service">Coding Bootcamp<span> - University of Western Australia</span></a> 2020
                                                </li>
                                                <li>
-                                                   <a href="/service">Diploma in Computer Science<span> - Gamma Technical Institute</span></a> 2009
+                                                   <a href="/service">Bachelor's Degree in Molecular Life Sciences <span> - Curtin University</span></a> 2018
                                                </li>
                                                <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
+                                                   <a href="/service">Cert IV Mechanical Engineerr<span> - Curtin College</span></a> 2015
                                                </li>
                                            </ul>
                                        </div>

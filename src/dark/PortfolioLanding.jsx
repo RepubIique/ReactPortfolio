@@ -23,7 +23,7 @@ const SlideList = [
 const PortfolioLanding = () => {
   let title = "About Me",
     description =
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+      `Moonlight programmer looking to turn my skills into a professional career. Often praised for my creative ways to solve problems not only in real life but also in the work I do. "Programming is finding problems when there’s none, solving problems people don’t know they even have" - Bestfriend/Programmer`;
   const PostList = BlogContent.slice(0, 3);
   return (
     <div className="active-dark">
@@ -49,7 +49,9 @@ const PortfolioLanding = () => {
                         <TextLoop>
                           <span> Full Stack Developer.</span>
                           <span> UI/UX Designer.</span>
-                          <span> Content Writter.</span>
+                          <span> Chemist.</span>
+                          <span> Coffee Drinker.</span>
+                          <span> Elon Musk Wannabe. </span>
                         </TextLoop>{" "}
                       </h1>
                       <h2>based in Perth, Australia.</h2>
@@ -153,8 +155,7 @@ const PortfolioLanding = () => {
                   <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                     <h2 className="title">My Projects</h2>
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration.
+                      My best work so far
                     </p>
                   </div>
                 </div>

@@ -4,7 +4,7 @@ const PortfolioListContent = [
   {
     image: "image-1",
     category: "Alpha Testing Stage",
-    title: "Where Would You Like To Go Next?",
+    title: "Travel Itinerary",
     link: "https://timothyosm.github.io/ProjectOne/"
   },
   {
@@ -15,8 +15,9 @@ const PortfolioListContent = [
   },
   {
     image: "image-3",
-    category: "Development",
-    title: "Getting tickets to the big show"
+    category: "Beta Testing Stage",
+    title: "Solar Solutions",
+    link: "https://my-solar-solution.herokuapp.com"
   }
 ];
 
