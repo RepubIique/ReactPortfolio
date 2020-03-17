@@ -27,20 +27,20 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <a href="/service">
+                          <a href="/">
                             Progressive Web App Developer <span> - FE/BE</span>
                           </a>
                           Javascript is my go to. Currently also learning
                           Python.
                         </li>
                         <li>
-                          <a href="/service">
+                          <a href="/">
                             Front End Design<span> - Development</span>
                           </a>
                           I love to use frameworks. All types.
                         </li>
                         <li>
-                          <a href="/service">
+                          <a href="/">
                             Databases<span> - Development</span>
                           </a>
                           MySQL, MongoDB and Stackoverflowing my way out of a
@@ -54,21 +54,21 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <a href="/service">
+                          <a href="/">
                             Cheekiness (Only when I know you){" "}
                             <span>- Winner</span>
                           </a>{" "}
                           1996 - Current
                         </li>
                         <li>
-                          <a href="/service">
+                          <a href="/">
                             Optimistic (Glass Half Full){" "}
                             <span>- Runner up</span>
                           </a>{" "}
                           2010 - Current
                         </li>
                         <li>
-                          <a href="/service">
+                          <a href="/">
                             Future Oriented <span>- Wannabe</span>
                           </a>{" "}
                           Current - Creation of Dyson Sphere
@@ -81,21 +81,21 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <a href="/service">
+                          <a href="/">
                             Contracted Jr Full Stack Developer
                             <span> - Common Extract</span>
                           </a>{" "}
                           2020 - Current
                         </li>
                         <li>
-                          <a href="/service">
+                          <a href="/">
                             Food Technologist / NPD
                             <span> - Milne Agrigroup</span>
                           </a>{" "}
                           2019 - Current
                         </li>
                         <li>
-                          <a href="/service">
+                          <a href="/">
                             Food Technologist / Analyst
                             <span> - The Lupin Co </span>
                           </a>{" "}
@@ -109,21 +109,21 @@ class TabsTwo extends Component {
                     <div className="single-tab-content">
                       <ul>
                         <li>
-                          <a href="/service">
+                          <a href="/">
                             Coding Bootcamp
                             <span> - University of Western Australia</span>
                           </a>{" "}
                           2020
                         </li>
                         <li>
-                          <a href="/service">
+                          <a href="/">
                             Bachelor's Degree in Molecular Life Sciences{" "}
                             <span> - Curtin University</span>
                           </a>{" "}
                           2018
                         </li>
                         <li>
-                          <a href="/service">
+                          <a href="/">
                             Cert IV Mechanical Engineer
                             <span> - Curtin College</span>
                           </a>{" "}

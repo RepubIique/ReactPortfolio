@@ -1,23 +1,27 @@
 import React, { Component } from "react";
+import { FaGithub } from "react-icons/fa";
 
 const PortfolioListContent = [
   {
     image: "image-1",
     category: "Alpha Testing Stage",
     title: "Travel Itinerary",
-    link: "https://timothyosm.github.io/ProjectOne/"
+    link: "https://timothyosm.github.io/ProjectOne/",
+    github: "https://github.com/timothyosm/ProjectOne"
   },
   {
     image: "image-2",
     category: "In Development",
     title: "Nanobar",
-    link: "https://nanobar.io"
+    link: "https://nanobar.io",
+    github: "https://github.com/RepubIique/MQTTProject"
   },
   {
     image: "image-3",
     category: "Beta Testing Stage",
     title: "Solar Solutions",
-    link: "https://my-solar-solution.herokuapp.com"
+    link: "https://my-solar-solution.herokuapp.com",
+    github: "https://github.com/RepubIique/SolarCalculations"
   }
 ];
 
@@ -43,6 +47,11 @@ class PortfolioList extends Component {
                   <div className="portfolio-button">
                     <a className="rn-btn" href={value.link}>
                       Visit Project
+                    </a>
+                  </div>
+                  <div className="portfolio-button">
+                    <a className="rn-btn" href={value.github}>
+                      Github Repo
                     </a>
                   </div>
                 </div>
