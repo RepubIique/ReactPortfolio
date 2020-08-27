@@ -17,8 +17,8 @@ const SlideList = [
     category: "Welcome to my World",
     description: "",
     buttonText: "",
-    buttonLink: ""
-  }
+    buttonLink: "",
+  },
 ];
 const PortfolioLanding = () => {
   let title = "About Me",
@@ -46,9 +46,7 @@ const PortfolioLanding = () => {
                       <h1 className="title">
                         Hi, I’m Kendrick <br />
                         <TextLoop>
-                          <span> Full Stack Developer.</span>
-                          <span> UI/UX Designer.</span>
-                          <span> Chemist.</span>
+                          <span> Full Stack Dev.</span>
                           <span> Coffee Drinker.</span>
                           <span> Elon Musk Wannabe. </span>
                         </TextLoop>{" "}
@@ -125,8 +123,9 @@ const PortfolioLanding = () => {
                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                   <h2 className="title">My Notable &lt;technical&gt; Skills</h2>
                   <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
+                    Learning new backend languages is like looking both ways
+                    before you cross the street, and then getting hit by an
+                    airplane.
                   </p>
                 </div>
               </div>
@@ -153,7 +152,7 @@ const PortfolioLanding = () => {
                 <div className="col-lg-12">
                   <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                     <h2 className="title">My Projects</h2>
-                    <p>My best work so far</p>
+                    <p>My best works so far</p>
                   </div>
                 </div>
               </div>
