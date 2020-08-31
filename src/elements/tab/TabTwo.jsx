@@ -31,7 +31,7 @@ class TabsTwo extends Component {
                             Progressive Web App Developer <span> - FE/BE</span>
                           </a>
                           Javascript is my go to. Currently also learning
-                          Python.
+                          PHP.
                         </li>
                         <li>
                           <a href="/">
@@ -89,7 +89,7 @@ class TabsTwo extends Component {
                         </li>
                         <li>
                           <a href="/">
-                            Food Technologist / NPD
+                            Systems Administration / NPD
                             <span> - Milne Agrigroup</span>
                           </a>{" "}
                           2019 - Current

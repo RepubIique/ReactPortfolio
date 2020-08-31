@@ -23,14 +23,14 @@ const SlideList = [
 const PortfolioLanding = () => {
   let title = "About Me",
     description = `Passionate programmer looking to turn my skills into a professional career. Often praised for my creative ways to solve problems not only in real life but also in the work I do. "Programming is finding problems when there’s none, solving problems people don’t know they even have" - Bestfriend/Programmer`;
-  const PostList = BlogContent.slice(0, 3);
+ const PostList = BlogContent.slice(0, 3);
   return (
     <div className="active-dark">
       <Helmet pageTitle="Portfolio | Kendrick Bong" />
 
       <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
       {/* Start Slider Area   */}
-      <div id="home" className="fix">
+    <div id="home" className="fix">
         <div className="slider-wrapper">
           {/* Start Single Slide */}
           {SlideList.map((value, index) => (
@@ -134,7 +134,7 @@ const PortfolioLanding = () => {
             <div className="row creative-service">
               <div className="col-lg-12">
                 <ServiceList
-                  item="6"
+                  item="9"
                   column="col-lg-4 col-md-6 col-sm-6 col-12 text-left"
                 />
               </div>

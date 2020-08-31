@@ -30,6 +30,7 @@ const BlogContent = [
         title: 'The Home of the Future Could Bebes',
         category: 'Design'
     },
+    
 ]
 
 export default BlogContent;
