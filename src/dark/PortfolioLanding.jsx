@@ -15,14 +15,14 @@ const SlideList = [
   {
     textPosition: "text-left",
     category: "Welcome to my World",
-    description: "",
-    buttonText: "",
-    buttonLink: "",
+    description: "DarkMode heck yea!",
+    buttonText: "Click Here for Resume",
+    buttonLink: "Resume",
   },
 ];
 const PortfolioLanding = () => {
   let title = "About Me",
-    description = `Moonlight programmer looking to turn my skills into a professional career. Often praised for my creative ways to solve problems not only in real life but also in the work I do. "Programming is finding problems when there’s none, solving problems people don’t know they even have" - Bestfriend/Programmer`;
+    description = `Passionate programmer looking to turn my skills into a professional career. Often praised for my creative ways to solve problems not only in real life but also in the work I do. "Programming is finding problems when there’s none, solving problems people don’t know they even have" - Bestfriend/Programmer`;
   const PostList = BlogContent.slice(0, 3);
   return (
     <div className="active-dark">
@@ -61,7 +61,8 @@ const PortfolioLanding = () => {
                         <div className="slide-btn">
                           <a
                             className="rn-button-style--2 btn-primary-color"
-                            href={`${value.buttonLink}`}
+                            href={`./Resume/KendrickResume.pdf`}
+                            download
                           >
                             {value.buttonText}
                           </a>
