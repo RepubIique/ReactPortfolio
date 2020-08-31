@@ -7,19 +7,19 @@ const ServiceList = [
   {
     icon: <FaJs />,
     title: "Javascript",
-    description: `"The most misunderstood language of all time." Main language that I code in. I also know TypeScript and the forgotten JQuery.`
+    description: `"The most misunderstood language of all time." Main language that I code in. I also know TypeScript and the forgotten JQuery`
   },
   {
     icon: <FaNodeJs />,
     title: "Node.js",
     description:
-      "My first introduction to asynchronous programming and the world of NPM. I showed it to my goldfish... It is now a Megalodon shark."
+      "My first introduction to asynchronous programming and the world of NPM. I showed it to my goldfish... It is now a Megalodon shark"
   },
   {
     icon: <FaCode />,
     title: "MQTT",
     description:
-      "Internet of Things. I built a contactless vending machine! Also learning how arduino works as I go."
+      "Internet of Things. I built a contactless vending machine! Also learning how arduino works as I go"
   },
   {
     icon: <FaReact />,
@@ -36,12 +36,12 @@ const ServiceList = [
     icon: <IoLogoIonic />,
     title: "Ionic Framework v5",
     description:
-      "As an Apple fan boy this is my favourite framework to build on. I've spent more time in its components section than programming itself ! ok, thats a lie. I spend most of my time writing witty stuff on my resume. I hAvE cHaRaCteR."
+      "As an Apple fan boy this is my favourite framework to build on. I've spent more time in its components section than programming itself ! ok, thats a lie. I spend most of my time writing witty stuff on my resume"
   },
   {
     icon: <DiMysql/>,
     title: "MySQL",
-    description: "What? Huh? Drop. Opps. I am switching to Mongoose."
+    description: "What? Huh? Drop. Opps I accidentally dropped the schema. I am switching to Mongoose. My favourite past time is to run npm create:db so long string of text appears on my terminal and I can live out the fantasy of being a hacker"
   },
   {
     icon: <FaAws />,
@@ -51,7 +51,7 @@ const ServiceList = [
   {
     icon: <FaGitAlt />,
     title: "Git",
-    description: "Is Git a skill I should put on my Notable Tech skills ? I feel like every programmer should know Git but some of them still don't know how how merges, branches and all that stuff works. `And for that reason I am chugging it on here.`- Mark Cuban (if he was a programmer instead of a billionaire)"
+    description: "Is Git a skill I should put on my Notable Tech skills ? I feel like every programmer should know Git but some of them still don't know how merges, branches and all that stuff works. `And for that reason I am chugging it on here.`- Mark Cuban (if he was a programmer instead of a billionaire)"
   }
 ];
 
