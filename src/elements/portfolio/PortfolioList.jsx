@@ -6,12 +6,12 @@ const PortfolioListContent = [
     image: "image-1",
     category: "Alpha Testing Stage",
     title: "Travel Itinerary",
-    link: "https://timothyosm.github.io/ProjectOne/",
-    github: "https://github.com/timothyosm/ProjectOne"
+    link: "https://jpmc3630.github.io/letsgo/",
+    github: "https://github.com/timothyosm/Letsgo"
   },
   {
     image: "image-2",
-    category: "In Development",
+    category: "Live",
     title: "Nanobar",
     link: "https://nanobar.io",
     github: "https://github.com/RepubIique/MQTTProject"
@@ -21,7 +21,7 @@ const PortfolioListContent = [
     category: "Beta Testing Stage",
     title: "Solar Solutions",
     link: "https://my-solar-solution.herokuapp.com",
-    github: "https://github.com/RepubIique/SolarCalculations"
+    github: "https://github.com/RepubIique/my-solar-solution"
   }
 ];
 
