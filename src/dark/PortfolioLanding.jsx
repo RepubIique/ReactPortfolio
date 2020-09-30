@@ -15,7 +15,7 @@ const SlideList = [
   {
     textPosition: "text-left",
     category: "Welcome to my World",
-    description: "DarkMode heck yea!",
+    description: "",
     buttonText: "Click Here for Resume",
     buttonLink: "Resume",
   },
@@ -47,8 +47,9 @@ const PortfolioLanding = () => {
                         Hi, I’m Kendrick <br />
                         <TextLoop>
                           <span> Full Stack Dev.</span>
-                          <span> Coffee Drinker.</span>
-                          <span> Elon Musk Wannabe. </span>
+                          <span> Swing Trader.</span>
+                          <span> Coffee Addict.</span>
+                          <span> Elon Musk Wannabe.</span>
                         </TextLoop>{" "}
                       </h1>
                       <h2>based in Perth, Australia.</h2>
