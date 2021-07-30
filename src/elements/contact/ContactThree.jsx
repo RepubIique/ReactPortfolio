@@ -29,7 +29,7 @@ class ContactThree extends Component {
                 <h2 className="title">{this.props.contactTitle}</h2>
                 <p className="description">
                   I am available for all types of work. Connect with me via
-                  phone: <a href="tel:+61452228026">045 222 8026</a> or email:
+                  email:
                   <a href="mailto:kendrickbong1996@gmail.com">
                     {" "}
                     kendrickbong1996@gmail.com
