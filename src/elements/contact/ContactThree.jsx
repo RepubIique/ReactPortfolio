@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Axios from 'axios'
 
 class ContactThree extends Component {
   constructor(props) {
@@ -14,9 +15,11 @@ class ContactThree extends Component {
   }
   handleSubmit = (event) => {
     event.preventDefault();
-    this.setState({
-      disabled: true,
-      
+   
+    Axios.post('/api/email', this.state).then(res => {
+     if(res.data.success){
+      this.setState({disabled: false, emailSent: true})
+     }else{this.setState({disabled: false, emailSent:false})}
     })
   }
  
