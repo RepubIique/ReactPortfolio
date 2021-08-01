@@ -1,14 +1,5 @@
 import React, { Component } from "react";
-import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
-const SocialShare = [
-  { Social: <FaGithub />, link: "https://github.com/RepubIique" },
-  {
-    Social: <FaLinkedinIn />,
-    link: "https://www.linkedin.com/in/kendrickbong/"
-  },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/itskennybong" }
-];
 class ContactThree extends Component {
   constructor(props) {
     super(props);
@@ -47,16 +38,6 @@ class ContactThree extends Component {
                   or one of the following below.
                 </p>
               </div>
-{/* 
-              <div className="inner text-center">
-                <ul className="social-share rn-lg-size d-flex justify-content-center liststyle">
-                  {SocialShare.map((val, i) => (
-                    <li key={i}>
-                      <a href={`${val.link}`}>{val.Social}</a>
-                    </li>
-                  ))}
-                </ul>
-              </div> */}
 
               <div className="form-wrapper">
                 <form onSubmit={this.handleSubmit}>

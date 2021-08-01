@@ -46,10 +46,9 @@ const PortfolioLanding = () => {
                       <h1 className="title">
                         Hi, I’m Kendrick <br />
                         <TextLoop>
+                          <span> Coffee Addict.</span>
                           <span> Full Stack Dev.</span>
                           <span> Swing Trader.</span>
-                          <span> Coffee Addict.</span>
-                          <span> Elon Musk Wannabe.</span>
                         </TextLoop>{" "}
                       </h1>
                       <h2>based in Perth, Australia.</h2>
