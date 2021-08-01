@@ -16,9 +16,19 @@ class ContactThree extends Component {
       rnName: "",
       rnEmail: "",
       rnSubject: "",
-      rnMessage: ""
+      rnMessage: "",
+      emailSent: null,
+      disabled: false
     };
   }
+  handleSubmit = (event) => {
+    event.preventDefault();
+    this.setState({
+      disabled: true,
+      
+    })
+  }
+ 
   render() {
     return (
       <div className="contact-form--1">
@@ -37,7 +47,7 @@ class ContactThree extends Component {
                   or one of the following below.
                 </p>
               </div>
-
+{/* 
               <div className="inner text-center">
                 <ul className="social-share rn-lg-size d-flex justify-content-center liststyle">
                   {SocialShare.map((val, i) => (
@@ -46,10 +56,10 @@ class ContactThree extends Component {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
 
-              {/* <div className="form-wrapper">
-                <form>
+              <div className="form-wrapper">
+                <form onSubmit={this.handleSubmit}>
                   <label htmlFor="item01">
                     <input
                       type="text"
@@ -72,7 +82,7 @@ class ContactThree extends Component {
                       onChange={e => {
                         this.setState({ rnEmail: e.target.value });
                       }}
-                      placeholder="Your email *"
+                      placeholder="Your Email *"
                     />
                   </label>
 
@@ -104,13 +114,17 @@ class ContactThree extends Component {
                     className="rn-button-style--2 btn-solid"
                     type="submit"
                     value="submit"
+                    disabled = {this.state.disabled}
                     name="submit"
                     id="mc-embedded-subscribe"
                   >
                     Submit
                   </button>
+
+                  {this.state.emailSent === true && <p className="success-msg">Email sent</p>}
+                  {this.state.emailSent === false && <p className="error-msg">Email not sent</p>}
                 </form>
-              </div> */}
+              </div>
             </div>
             <div className="col-lg-6 order-1 order-lg-2">
               <div className="thumbnail mb_md--30 mb_sm--30">

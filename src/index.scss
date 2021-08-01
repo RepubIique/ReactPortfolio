@@ -5,3 +5,13 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 @import "node_modules/react-modal-video/scss/modal-video.scss";
+
+.success-msg {
+  color: #57a773;
+  padding: 10px 0px;
+}
+
+.error-msg {
+  color: #ee6352;
+  padding: 10px 0px;
+}
