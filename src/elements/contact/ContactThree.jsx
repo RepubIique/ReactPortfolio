@@ -5,22 +5,42 @@ class ContactThree extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      rnName: "",
-      rnEmail: "",
-      rnSubject: "",
-      rnMessage: "",
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
       emailSent: null,
       disabled: false
     };
   }
+
+  handleChange = (event) => {
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
+    console.log(event.target.value)
+    this.setState({
+        [name]: value
+    })
+  }
+
   handleSubmit = (event) => {
     event.preventDefault();
-   
+    this.setState({
+      disabled: true
+  });
+
     Axios.post('/api/email', this.state).then(res => {
      if(res.data.success){
       this.setState({disabled: false, emailSent: true})
      }else{this.setState({disabled: false, emailSent:false})}
-    })
+    }).catch(err => {
+      console.log(err);
+      this.setState({
+          disabled: false,
+          emailSent: false
+      });
+  })
   }
  
   render() {
@@ -49,10 +69,8 @@ class ContactThree extends Component {
                       type="text"
                       name="name"
                       id="item01"
-                      value={this.state.rnName}
-                      onChange={e => {
-                        this.setState({ rnName: e.target.value });
-                      }}
+                      value={this.state.name}
+                      onChange={this.handleChange}
                       placeholder="Your Name *"
                     />
                   </label>
@@ -62,10 +80,8 @@ class ContactThree extends Component {
                       type="text"
                       name="email"
                       id="item02"
-                      value={this.state.rnEmail}
-                      onChange={e => {
-                        this.setState({ rnEmail: e.target.value });
-                      }}
+                      value={this.state.email}
+                      onChange={this.handleChange}
                       placeholder="Your Email *"
                     />
                   </label>
@@ -75,10 +91,8 @@ class ContactThree extends Component {
                       type="text"
                       name="subject"
                       id="item03"
-                      value={this.state.rnSubject}
-                      onChange={e => {
-                        this.setState({ rnSubject: e.target.value });
-                      }}
+                      value={this.state.subject}
+                      onChange={this.handleChange}
                       placeholder="Write a Subject"
                     />
                   </label>
@@ -87,10 +101,8 @@ class ContactThree extends Component {
                       type="text"
                       id="item04"
                       name="message"
-                      value={this.state.rnMessage}
-                      onChange={e => {
-                        this.setState({ rnMessage: e.target.value });
-                      }}
+                      value={this.state.message}
+                      onChange={this.handleChange}
                       placeholder="Your Message"
                     />
                   </label>
@@ -106,7 +118,7 @@ class ContactThree extends Component {
                   </button>
 
                   {this.state.emailSent === true && <p className="success-msg">Email sent</p>}
-                  {this.state.emailSent === false && <p className="error-msg">Email not sent</p>}
+                  {this.state.emailSent === false && <p className="error-msg">Email fail to sent</p>}
                 </form>
               </div>
             </div>

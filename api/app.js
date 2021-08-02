@@ -4,7 +4,8 @@ const cors = require("cors");
 const sendGrid = require("@sendGrid/mail");
 const app = express();
 
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 app.use(cors());
 
@@ -28,10 +29,11 @@ app.post("api/email", (req, res, next) => {
   sendGrid.setApiKey(process.env.sendGridApi);
   const msg = {
     to: "kendrickbong1996@gmail.com",
-    from: req.body.rnEmail,
-    subject: req.body.rnSubject,
-    text: req.body.rnMessage,
+    from: req.body.email,
+    subject: req.body.subject,
+    text: req.body.message,
   };
+  console.log(msg);
   sendGrid
     .send(msg)
     .then((result) => {
