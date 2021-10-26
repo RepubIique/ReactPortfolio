@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { FaGithub } from "react-icons/fa";
 
 const PortfolioListContent = [
   {
@@ -7,22 +6,22 @@ const PortfolioListContent = [
     category: "Alpha Testing Stage",
     title: "Travel Itinerary",
     link: "https://jpmc3630.github.io/letsgo/",
-    github: "https://github.com/timothyosm/Letsgo"
+    github: "https://github.com/timothyosm/Letsgo",
   },
   {
     image: "image-2",
     category: "Live",
     title: "Nanobar",
     link: "https://nanobar.io",
-    github: "https://github.com/RepubIique/MQTTProject"
+    github: "https://github.com/RepubIique/MQTTProject",
   },
   {
     image: "image-3",
     category: "Beta Testing Stage",
     title: "Solar Solutions",
     link: "https://my-solar-solution.herokuapp.com",
-    github: "https://github.com/RepubIique/my-solar-solution"
-  }
+    github: "https://github.com/RepubIique/my-solar-solution",
+  },
 ];
 
 class PortfolioList extends Component {

@@ -1,5 +1,5 @@
+import Axios from "axios";
 import React, { Component } from "react";
-import Axios from 'axios'
 
 class ContactThree extends Component {
   constructor(props) {
@@ -10,39 +10,43 @@ class ContactThree extends Component {
       subject: "",
       message: "",
       emailSent: null,
-      disabled: false
+      disabled: false,
     };
   }
 
   handleChange = (event) => {
     const target = event.target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const value = target.type === "checkbox" ? target.checked : target.value;
     const name = target.name;
-    console.log(event.target.value)
+    console.log(event.target.value);
     this.setState({
-        [name]: value
-    })
-  }
+      [name]: value,
+    });
+  };
 
   handleSubmit = (event) => {
     event.preventDefault();
     this.setState({
-      disabled: true
-  });
+      disabled: true,
+    });
 
-    Axios.post('/api/email', this.state).then(res => {
-     if(res.data.success){
-      this.setState({disabled: false, emailSent: true})
-     }else{this.setState({disabled: false, emailSent:false})}
-    }).catch(err => {
-      console.log(err);
-      this.setState({
+    Axios.post("/api/email", this.state)
+      .then((res) => {
+        if (res.data.success) {
+          this.setState({ disabled: false, emailSent: true });
+        } else {
+          this.setState({ disabled: false, emailSent: false });
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+        this.setState({
           disabled: false,
-          emailSent: false
+          emailSent: false,
+        });
       });
-  })
-  }
- 
+  };
+
   render() {
     return (
       <div className="contact-form--1">
@@ -110,15 +114,19 @@ class ContactThree extends Component {
                     className="rn-button-style--2 btn-solid"
                     type="submit"
                     value="submit"
-                    disabled = {this.state.disabled}
+                    disabled={this.state.disabled}
                     name="submit"
                     id="mc-embedded-subscribe"
                   >
                     Submit
                   </button>
 
-                  {this.state.emailSent === true && <p className="success-msg">Email sent</p>}
-                  {this.state.emailSent === false && <p className="error-msg">Email fail to sent</p>}
+                  {this.state.emailSent === true && (
+                    <p className="success-msg">Email sent</p>
+                  )}
+                  {this.state.emailSent === false && (
+                    <p className="error-msg">Email fail to sent</p>
+                  )}
                 </form>
               </div>
             </div>

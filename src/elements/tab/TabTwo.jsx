@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 
 class TabsTwo extends Component {
   render() {
@@ -30,8 +30,7 @@ class TabsTwo extends Component {
                           <a href="/">
                             Progressive Web App Developer <span> - FE/BE</span>
                           </a>
-                          Javascript is my go to. Currently also learning
-                          PHP.
+                          Javascript is my go to. Currently also learning PHP.
                         </li>
                         <li>
                           <a href="/">

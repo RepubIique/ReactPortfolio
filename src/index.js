@@ -1,15 +1,11 @@
 // React Required
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import DarkPortfolioLanding from "./dark/PortfolioLanding";
+import error404 from "./elements/error404";
 // Create Import File
 import "./index.scss";
-
-import DarkPortfolioLanding from "./dark/PortfolioLanding";
-
-import error404 from "./elements/error404";
-
-import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 
 class Root extends Component {

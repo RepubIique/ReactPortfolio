@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import { FaInstagram, FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { FiX, FiMenu } from "react-icons/fi";
+import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FiMenu, FiX } from "react-icons/fi";
 import Scrollspy from "react-scrollspy";
 
 const SocialShare = [
   { Social: <FaGithub />, link: "https://github.com/RepubIique" },
   {
     Social: <FaLinkedinIn />,
-    link: "https://www.linkedin.com/in/kendrickbong/"
+    link: "https://www.linkedin.com/in/kendrickbong/",
   },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/itskennybong" }
+  { Social: <FaInstagram />, link: "https://www.instagram.com/itskennybong" },
 ];
 class HeaderThree extends Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class HeaderThree extends Component {
     this.stickyHeader = this.stickyHeader.bind(this);
 
     //  this.subMetuTrigger = this.subMetuTrigger.bind(this);
-    window.addEventListener("load", function() {
+    window.addEventListener("load", function () {
       console.log("All assets are loaded");
     });
   }
@@ -34,7 +34,7 @@ class HeaderThree extends Component {
   stickyHeader() {}
 
   render() {
-    window.addEventListener("scroll", function() {
+    window.addEventListener("scroll", function () {
       var value = window.scrollY;
       if (value > 100) {
         document.querySelector(".header--fixed").classList.add("sticky");
@@ -46,7 +46,7 @@ class HeaderThree extends Component {
     var elements = document.querySelectorAll(".has-droupdown > a");
     for (var i in elements) {
       if (elements.hasOwnProperty(i)) {
-        elements[i].onclick = function() {
+        elements[i].onclick = function () {
           this.parentElement
             .querySelector(".submenu")
             .classList.toggle("active");
@@ -98,7 +98,7 @@ class HeaderThree extends Component {
                   "service",
                   "portfolio",
                   "blog",
-                  "contact"
+                  "contact",
                 ]}
                 currentClassName="is-current"
                 offset={-200}

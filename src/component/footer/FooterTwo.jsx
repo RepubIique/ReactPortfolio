@@ -1,13 +1,13 @@
 import React from "react";
-import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const SocialShare = [
   { Social: <FaGithub />, link: "https://github.com/RepubIique" },
   {
     Social: <FaLinkedinIn />,
-    link: "https://www.linkedin.com/in/kendrickbong/"
+    link: "https://www.linkedin.com/in/kendrickbong/",
   },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/itskennybong" }
+  { Social: <FaInstagram />, link: "https://www.instagram.com/itskennybong" },
 ];
 
 const FooterTwo = () => {
